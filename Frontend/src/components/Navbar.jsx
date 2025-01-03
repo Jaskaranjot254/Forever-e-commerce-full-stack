@@ -47,7 +47,7 @@ const Navbar = () => {
         
           <img onClick={()=>token ? null : navigate('/login')}
             src={assets.profile_icon}
-            className="w-5 cursor-pointer"
+            className="w-5 min-w-5 cursor-pointer"
             alt=""
           />
           {/* Dropdown menu */}
